@@ -1,3 +1,20 @@
+
+# Twitter Clone
+
+I made the most basic design of the twitter homepage with React. It doesn't have any function, I just made it to practice SCSS.
+
+![Logo](https://img001.prntscr.com/file/img001/Hah4ScU3QoK3iW71knTIUA.png)
+
+
+
+    
+## Used Technologies
+
+- React / Javascript / SCSS
+
+## Api / Data
+I just made it two JSON files what they have name Trends and Posts. I took all datas from thoose files.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
