@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "subject": "Politics",
+    "title": "Elon Musk",
+    "totalTweets": 125523
+  },
+  {
+    "id": 2,
+    "subject": "Science",
+    "title": "artificial intelligence",
+    "totalTweets": 54599
+  },
+  {
+    "id": 3,
+    "subject": "Science",
+    "title": "Chat GPT",
+    "totalTweets": 65000
+  },
+  {
+    "id": 4,
+    "subject": "Science",
+    "title": "robots",
+    "totalTweets": 21221
+  },
+  {
+    "id": 5,
+    "subject": "Nature",
+    "title": "freedom to trees",
+    "totalTweets": 6500
+  },
+  {
+    "id": 6,
+    "subject": "Politics",
+    "title": "freedom for everyone",
+    "totalTweets": 200000
+  },
+  {
+    "id": 7,
+    "subject": "Politics",
+    "title": "vote",
+    "totalTweets": 231000
+  },
+  {
+    "id": 8,
+    "subject": "Art",
+    "title": "Michael Jackson",
+    "totalTweets": 50599
+  },
+  {
+    "id": 9,
+    "subject": "Art",
+    "title": "Rihanna",
+    "totalTweets": 32653
+  },
+  {
+    "id": 10,
+    "subject": "Rap",
+    "title": "Eminem",
+    "totalTweets": 42245
+  }
+]

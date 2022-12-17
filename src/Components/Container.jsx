@@ -1,7 +1,15 @@
 import Posts from "../Context/Posts.json";
 import Post from "./Post";
+import { useState } from "react";
 
 const Container = () => {
+  const [statu, setStatu] = useState(false);
+
+  const inputHandler = (e) => {
+    if (e.target.value !== "") {
+      setStatu(true);
+    }
+  };
   return (
     <>
       <div className="home">
@@ -11,7 +19,11 @@ const Container = () => {
         </div>
         <div className="home-body">
           <img src="https://media.licdn.com/dms/image/C4E03AQEWK6Ek6uQ0sw/profile-displayphoto-shrink_800_800/0/1662559392507?e=1676505600&v=beta&t=LSG6nONWTTpZUiJuDy58IjOMBd84Q65-jeWhV-913zg"></img>
-          <input placeholder="What's Happening?" type="text"></input>
+          <input
+            onChange={(e) => inputHandler(e)}
+            placeholder="What's Happening?"
+            type="text"
+          ></input>
         </div>
         <div className="home-bottom">
           <div className="icons">
@@ -23,7 +35,7 @@ const Container = () => {
             <i className="fa-solid fa-location-dot"></i>
           </div>
           <div className="tweet">
-            <button disabled>Tweet</button>
+            <button disabled={!statu}>Tweet</button>
           </div>
         </div>
       </div>
